@@ -1,0 +1,87 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    min-height: 100%;
+    padding: 50px;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(107, 207, 14);
+    z-index: 100;
+}
+.header__container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header__menu{
+    
+}
+.menu__list {
+    font-size: 0;
+}
+.menu__item {
+    position: relative;
+    display: inline-block;
+  
+}
+
+.menu__item :not(:last-child){
+    margin-bottom: 10px;
+}
+.menu__item:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.menu__link {
+    font-size: 16px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 5px 0;
+    margin-left: 10px;
+}
+
+.menu__sub-menu {}
+.sub-menu {
+    background-color: rgb(58, 16, 97);
+    padding: 15px;
+    position: absolute;
+    min-width: 180px;
+    top: 130%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    transition: all 0.4s ease 0s;
+
+}
+.sub-menu__item {
+}
+.sub-menu__item:not(:last-child){
+    margin-bottom: 10px;
+}
+.sub-menu__link {
+    font-size: 16px;
+	color: #fff;
+}
+.main {
+}
+.container {
+}
+.container__block-1 {
+}
+.container__block-2 {
+}
+.container__block-3 {
+}
+.container__block-4 {
+}
+
